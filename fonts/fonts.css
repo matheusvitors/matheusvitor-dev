@@ -1,4 +1,9 @@
 @font-face {
     font-family: 'Linebeam';
-    src: url('./fonts/Linebeam.ttf') format('truetype'),
+    src: url('Linebeam.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'Linear Beam';
+    src: url('Linear Beam.woff'),
 }
