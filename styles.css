@@ -13,9 +13,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
-    background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(0,4,101,1) 100%);
-    height: 100vh;
+    /* background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(0,4,101,1) 100%); */
+    height: 100%;
 
 
     border: 1px solid white;
@@ -26,11 +27,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     
     width: 600px;
-    height: 100px;
+    height: auto;
+    margin-top: 40px;
 
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 
 .logo {
@@ -39,8 +42,24 @@ header {
     font-family:  'Linear Beam', sans-serif;
     font-size: 50px;
 
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
+}
 
+.logo img {
+    border-radius: 25%;
+}
+
+.nome {
+    font-size: 3em;
+    font-family: "Lato", sans-serif;
+}
+
+.descricao {
+    font-size: 1.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+
+    margin-top: 20px;
 }
 
 content {
@@ -49,9 +68,9 @@ content {
     align-items: center;
     flex-direction: column;
 
-    min-height: 70%;
+    min-height: auto;
     width: 600px;
-    margin-top: 50px;
+    margin-top: 10px;
 
     border: 1px solid white;
 
@@ -69,7 +88,7 @@ content {
 
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0;
     /* left: 0;
@@ -83,6 +102,5 @@ footer{
     justify-content: center;
 
     border: 1px solid green;
-
-}
+} 
 
